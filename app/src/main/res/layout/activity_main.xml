@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_division"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_Expression"
+                style="@style/Calc_super"
+                android:background="#DAC892"
+                android:text="решение" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_Result"
+                style="@style/Calc_super"
+                android:background="#DAC892"
+                android:text="ответ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_AC"
+                style="@style/Calc_topchik"
+                android:background="@color/orange"
+                android:fontFamily="@font/alex_brush"
+                android:text="AC"></TextView>
+
+            <TextView
+                android:id="@+id/btn_Open"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="("></TextView>
+
+            <TextView
+                android:id="@+id/btn_Close"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text=")"></TextView>
+
+            <TextView
+                android:id="@+id/btn_divison"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="/"></TextView>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_seven"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="7"></TextView>
+
+            <TextView
+                android:id="@+id/btn_eight"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="8"></TextView>
+
+            <TextView
+                android:id="@+id/btn_nine"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="9"></TextView>
+
+            <TextView
+                android:id="@+id/btn_multiplication"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="*"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_four"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="4"></TextView>
+
+            <TextView
+                android:id="@+id/btn_five"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="5"></TextView>
+
+            <TextView
+                android:id="@+id/btn_six"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="6"></TextView>
+
+            <TextView
+                android:id="@+id/btn_minus"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="-"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_one"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="1"></TextView>
+
+            <TextView
+                android:id="@+id/btn_two"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="2"></TextView>
+
+            <TextView
+                android:id="@+id/btn_three"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="3"></TextView>
+
+            <TextView
+                android:id="@+id/btn_plus"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="+"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_back"
+                style="@style/Calc_topchik"
+                android:background="@color/orange"
+                android:fontFamily="@font/alex_brush"
+                android:text="Back"></TextView>
+
+            <TextView
+                android:id="@+id/btn_zero"
+                style="@style/Calc_topchik"
+                android:background="@color/orange"
+                android:fontFamily="@font/alex_brush"
+                android:text="0"></TextView>
+
+            <TextView
+                android:id="@+id/btn_comma"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text=","></TextView>
+
+            <TextView
+                android:id="@+id/btn_equally"
+                style="@style/Calc_topchik"
+                android:fontFamily="@font/alex_brush"
+                android:text="="></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
